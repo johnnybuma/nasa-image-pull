@@ -1,15 +1,18 @@
-<div class="col-md-6 col-md-offset-3">
-    <div class="jumbotron frontpage">
-      <h4>Select Date to View Nasa Image of the Day</h4>
 
-      <%= form_for(@thing) do |f|  %>
+<div class="container-front container">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="jumbotron frontpage">
+          <h4>Select Date to View Nasa Image of the Day</h4>
 
-    <%= f.label :date %>
-    <%= f.date_select :date, use_two_digit_numbers: true, start_year: 1996, end_year: 2015, class: 'form-control' %>
+          <%= form_for(@thing) do |f|  %>
+
+        <%= f.label :date %>
+        <%= f.date_select :date, use_two_digit_numbers: true, start_year: 1996, end_year: 2015, class: 'form-control' %>
 
 
-    <%= f.submit "Choose Date", class: 'btn btn-primary' %>
+        <%= f.submit "Choose Date", class: 'btn btn-primary' %>
 
-<% end %>
-  </div>
+    <% end %>
+      </div>
+    </div>
 </div>

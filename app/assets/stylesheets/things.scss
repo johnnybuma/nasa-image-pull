@@ -6,7 +6,9 @@
   margin-top: 100px;
 }
 
-body {
+.container-front {
+  height: 500px;
+  min-height: 100%;
   background-image: url("https://newevolutiondesigns.com/images/freebies/space-wallpaper-29.jpg");
   background-size: 100%;
   background-attachment: fixed;
@@ -14,5 +16,6 @@ body {
 }
 
 main {
+  min-height: 1000px !important;
   background-color: rgba(23,23,32,0.0) !important;
 }
