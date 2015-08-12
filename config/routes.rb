@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   post 'things' => 'things#show'
   get 'test' => 'things#pull_data'
 
-  root to: 'visitors#index'
+  root to: 'things#new'
 end
