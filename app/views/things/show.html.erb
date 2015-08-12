@@ -1,11 +1,13 @@
 <h1>Things#show</h1>
 <p>Find me in app/views/things/show.html.erb</p>
+
+
+<button class="btn"><%= link_to 'New Image Request', things_path('things') %></button>
+<div style="height: 100px;"></div>
+
+<img src="<%= @url  %>">
+
 <%= debug @url %>
 <%= debug @newdate %>
 
 <%= debug @thing.date %>
-
-
-<div style="height: 100px;"></div>
-
-<img src="<%= @url  %>">
