@@ -36,7 +36,7 @@ img {
 main {
   @extend .container;
   background-color: #eee;
-  padding-bottom: 80px;
+  /*padding-bottom: 80px;*/
   width: 100%;
   margin-top: 51px; // accommodate the navbar
   }
@@ -44,3 +44,34 @@ section {
   @extend .row;
   margin-top: 20px;
   }
+html, body, .container, main, .front-row {
+  height: 100%;
+  min-height: 100%;
+}
+
+.container-main {
+  width: 100%;
+  height: 100%;
+  margin-top: 51px;
+  position: relative;
+}
+
+select {
+  margin-bottom: 20px !important;
+  margin-right: 10px !important;
+  background-color: #211e14;
+  border-radius: 8px;
+}
+
+h4, span {
+  color: white;
+}
+
+body {
+  background-image: image_url("back.jpg");
+
+}
+
+a {
+  color: white !important;
+}

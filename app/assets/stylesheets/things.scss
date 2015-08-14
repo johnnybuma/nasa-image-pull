@@ -2,18 +2,43 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .frontpage {
-  background-color: white !important;
-  margin-top: 100px;
+  background-color: rgba(0,0,0,0.2) !important;
+  margin-top: 150px;
+  position: absolute;
 }
 
-.container-front {
-  height: 500px;
-  background-image: url("https://newevolutiondesigns.com/images/freebies/space-wallpaper-29.jpg");
-  background-size: 100%;
-  background-attachment: fixed;
+.front-row {
+  background-image: image_url("back.jpg");
   
 }
 
 main {
   background-color: rgba(23,23,32,0.0) !important;
+}
+
+select {
+  padding: 5px;
+}
+
+.dateselect {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 51px;
+  padding: 40px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 5px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.showbut {
+  float: right;
+  margin-right: 10%;
+}
+
+select {
+  margin-bottom: 20px;
 }

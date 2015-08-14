@@ -1,10 +1,12 @@
-<h1>Nasa Image of the day from <%= @newdate %></h1>
+<h3><span><%= @newdate %></span></h3>
 
 
-<button class="btn"><%= link_to 'New Image Request', things_path('things') %></button>
-<div style="height: 100px;"></div>
+<div style="height: 20px;"></div>
 
 <a href="<%= @url %>"><img src="<%= @url  %>"></a>
+<div style="height: 15px;"></div>
+
+<button class="btn showbut btn-danger"><%= link_to 'New Image Request', things_path('things') %></button>
 
 <div style="height: 50px;"></div>
 
